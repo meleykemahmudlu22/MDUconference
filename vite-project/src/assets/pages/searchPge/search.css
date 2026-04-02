@@ -1,0 +1,201 @@
+
+.searchtexttop{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+
+}
+.searchcontainers{
+    background-color: white;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.searchcommon{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: white;
+    width: 100%;
+     max-width: 1700px;    
+    margin: 0 auto;      
+    padding: 0 20px;     
+}
+.searchinp input::placeholder{
+    color:gray !important;
+}
+.searchtext h2{
+color: navy;
+font-size: 50px;
+}
+.searchtext p{
+    color: gray;
+    font-size: 18px;
+}
+.searchtext{
+   display: flex;
+   flex-direction: column;
+   gap: 14px;
+}
+.searchbtn{
+    background-color: rgb(247, 245, 245);
+    width: 93%;
+       padding: 10px;
+       box-shadow: 20px;
+    display: flex;
+      border-radius: 25px;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+}
+.searcinpbtn{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+}
+.searchbtn button {
+    cursor: pointer;
+    padding: 20px;
+    width: 30%;
+    border-radius: 20px;
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+    transition: 0.3s;
+}
+
+.searchbtn button.active {
+ background-color: rgb(214, 212, 212) !important;
+    color: white;
+}
+.searchinp {
+
+    display: flex;
+    justify-content: space-around;
+    width: 94%;
+}
+.searchinp input{
+ padding: 16px;
+    width: 35%;
+    outline: none;
+    background-color:transparent;
+    border: 1px solid rgb(201, 199, 199);
+    border-radius: 10px;
+}
+.searchinp select{
+    padding: 10px;
+      width: 20%;
+      background-color: transparent;
+      outline: none;
+      border: 1px solid rgb(201, 199, 199);
+      border-radius: 10px;
+}
+
+
+
+.boxss{
+   
+    height: 400px;
+    width:  350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+     border: 1px solid #e5e7eb;
+    padding: 15px;
+    border-radius: 20px;
+
+}
+.kf{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+  
+
+}
+
+.boxbtn {
+    display: flex;
+    gap: 20px;
+}
+.paragraf p{
+    font-size: 16px !important;
+}
+.boxbtns  {
+    display: flex;
+    cursor: pointer;
+    padding: 5px 10px !important;
+    border-radius: 10px;
+    gap: 20px;
+    font-size: 15px !important;
+    color: hsl(44 70% 47%) !important;
+    border: none;
+}
+.boxtext{
+    width: 90%;
+    color: rgb(2, 2, 88);
+}
+.common button{
+    padding: 10px 15px;
+      color: hsl(44 70% 47%);
+}
+.boxtext h2{
+    width: 90%;
+    font-size: 20px;
+    color: rgb(2, 71, 88);
+}
+.paragraf p{
+    color: rgb(151, 159, 206);
+}
+.boxicosn{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+ 
+}
+.icon{
+    color: hsl(44 70% 47%);
+}
+
+.boxbottombtn button:nth-child(1){
+width: 100% !important;
+padding: 16px;
+border-radius: 15px;
+border: none;
+color: white;
+cursor: pointer;
+font-size: 18px;
+background-color:  rgb(2, 2, 88);
+
+}
+.boxbottombtn button:nth-child(1):hover{
+background-color: hsl(44 70% 47%);
+
+}
+.boxbottombtn button:nth-child(2){
+font-size: 18px;
+padding: 7px 15px;
+cursor: pointer;
+border-radius: 15px;
+border: 1px solid hsl(44 70% 47%);
+color: hsl(44 70% 47%);
+background-color: transparent;
+
+}
+.boxbottombtn button:nth-child(2):hover{
+background-color: hsl(44 70% 47%);
+color: white;
+}
+.boxbottombtn {
+display: flex;
+gap: 20px;
+
+}
+
+
+

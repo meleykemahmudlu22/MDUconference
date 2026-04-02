@@ -1,0 +1,372 @@
+
+.registercontainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    overflow-x: auto;
+    width: 40%;
+}
+.topnumber{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   flex-shrink: 0;
+   
+}
+.topnumber button{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background: gray;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topnumber hr{
+ 
+    width: 100px;
+}
+.registercontainers{
+    background-color: white;
+}
+.registertops{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+
+  background-color: white;
+  margin-top: 30px;
+}
+.registertopstext{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 20px;
+    text-align: start;
+    
+}
+.registertopstext h1{
+    font-size: 40px;
+    color: rgb(6 28 64 / 98%);
+}
+.registertopstext p{
+    font-size: 20px;
+    color: #ddd5d5fc;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    gap: 30px;
+
+}
+.formdata{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    height: 86vh;
+    gap: 20px;
+    background-color: white;
+      border: 1px solid hsl(214 32% 91%);
+      width: 40%;
+}
+.formdata h2{
+    display: flex;
+ 
+    width: 79%;
+    justify-content: flex-start;
+       color: rgb(6 28 64 / 98%);
+}
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 60vh;
+ 
+}
+.oneforumtop{
+    display: flex;
+    height: 100vh;
+
+    width: 92%;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.topinput{
+  
+    display: flex;
+    gap: 20px;
+}
+.topinput input{
+    width: 280px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(231, 228, 228);
+}
+.twoinp{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.twoinp input{
+background-color: rgb(231, 228, 228);
+    width: 600px;
+    outline: none;
+       padding: 15px;
+    border-radius: 10px;
+    border: none;
+
+}
+form h2{
+    text-align: start;
+    width: 400px;
+    
+}
+
+
+.label{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+form input::placeholder{
+    font-size: 17px;
+}
+.topnumber button.active {
+  background: hsl(44 70% 47%);
+  color: white;
+}
+
+
+
+
+.next{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 10px;
+  
+}
+.next button:disabled {
+    color: gray;
+
+  cursor: not-allowed;
+}
+
+
+.nextbutton button {
+  width: 180px;
+  position: relative; 
+  font-size: 19px;
+  background-color: rgb(6 28 64 / 98%);
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  border: none;
+}
+
+.stepicons {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+
+.nextbuttontop button {
+  width: 140px;
+  font-size: 19px;
+  background-color: transparent;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+
+  gap: 20px; 
+  border: none;
+  color: gray;
+}
+
+
+.twostep{
+  
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+   height: 90vh;
+}
+
+ .twostep h2{
+    color:  rgb(6 28 64 / 98%);
+ }
+ .twostep p{
+    color: gray;
+ }
+.checkb{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+   
+    border: 1px solid hsl(214 32% 91%);
+    padding: 20px;
+    border-radius: 10px;
+}
+.checkb:hover{
+    border: 2px solid hsl(44 70% 47%);
+}
+.stepcheckinp{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.checktext{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.checktext h5{
+  
+     color:  rgb(6 28 64 / 98%);
+
+}
+.checktext p{
+    color: gray;
+}
+.treestep{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height:70vh ;
+}
+.treestep h2{
+      color:  rgb(6 28 64 / 98%);
+
+}
+.tresteptop{
+    width: 90%;
+    height: 90vh;
+  
+}
+.trestepbox{
+    border: 1px solid  hsl(214 32% 91%);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 20px;
+    font-size: 18px;
+   
+}
+.trestepbox h4{
+    color:  rgb(6 28 64 / 98%);
+}
+.trestepbox p{
+    color: hsl(0, 0%, 75%);
+}
+.filecommon{
+    
+     width: 90%;
+   
+     display: flex;
+     flex-direction: column;
+   gap: 20px;
+}
+.filecommon h2{
+     color:  rgb(6 28 64 / 98%);
+}
+.file{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+ border: 2px dashed gray;
+ border-radius: 20px;
+  height: 60vh;
+}
+.fileicon{
+    font-size: 40px;
+    color: hsl(0, 1%, 69%);
+}
+.file p{
+    color: hsl(0, 1%, 69%);
+}
+
+.file input:hover{
+background-color: orangered;
+}
+.forumcontainers{
+  
+   width: 100%;
+
+}
+.stepformbox {
+  
+   display: flex;
+   flex-direction: column;
+  height: 30vh;
+  gap: 10px;
+
+}
+.stepformbox h2{
+   
+    color:  rgb(6 28 64 / 98%);
+    padding: 0px 60px;
+}
+.stepformbox form textarea{
+  width: 86%;
+  height: 20vh;
+  background-color:rgb(227, 227, 252);
+  border-radius: 10px;
+  border: none;
+}
+.stepformbox form textarea::placeholder{
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+.activeType {
+  border: 2px solid #6c63ff;
+  background-color: #f3f2ff;
+}
+
+.customFile input {
+  display: none;
+}
+
+.customFile {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0d2240;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}

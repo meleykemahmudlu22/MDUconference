@@ -1,0 +1,134 @@
+.footersection{
+    background-color: hsl(215 100% 19%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 20px;
+    height: 60vh;
+    margin-top: 30px;
+}
+.ifooter{
+    color: hsl(44 70% 47%);
+}
+.toxtextfooter{
+  width: 100%;
+    display: flex;
+   
+    justify-content: space-evenly;
+    gap: 20px;
+}
+hr{
+    width: 87%;
+  
+    color:  hsl(215, 18%, 87%);
+    margin-top: 30px
+    ;
+    
+}
+.bootomfooter p{
+    font-size: 19px;
+    color: rgb(199, 198, 198);
+}
+
+.footerbtn{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.mdubtn button{
+padding: 15px 9px;
+color: white;
+background-color: hsl(44 70% 47%);
+border-radius: 10px;
+font-size: 14px;
+border: none;
+}
+.mdutext{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.mdutext p:nth-child(1){
+    color: white;
+    font-weight: 900;
+}
+.mdutext p:nth-child(2){
+    color: rgb(204, 203, 203);
+    
+}
+.footertext{
+   
+    font-size: 20px;
+    width: 400px;
+}
+.footerboxtop{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+      color: rgb(204, 203, 203);
+}
+.footernav nav ul{
+    list-style-type: none;
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+       color: rgb(204, 203, 203);
+       cursor: pointer;
+}
+.footernav nav ul li:hover{
+  color:  hsl(44 70% 47%);
+}
+.footernav h2{
+    color: white;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contact h2{
+    color: white;
+}
+.contact p{
+   color:rgb(204, 203, 203) ;
+}
+
+.footernav{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.iconfooter{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.social h2{
+    color: white;
+
+}
+.socialicon p{
+    display: flex;
+    padding: 20px;
+    background-color: hsl(215, 18%, 87%);
+    border-radius: 50%;
+    color: rgb(155, 153, 153);
+    cursor: pointer;
+}
+.socialicon p:hover{
+    background-color: hsl(44 70% 47%);
+    color: white;
+}
+.socialicon{
+    display: flex;
+ gap: 20px;
+    align-items: center;
+}

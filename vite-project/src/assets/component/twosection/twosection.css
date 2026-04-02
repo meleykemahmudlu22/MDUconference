@@ -1,0 +1,29 @@
+.sectionbox{
+    background-color: white;
+    display: flex;
+    height: 50vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.numbersction{
+    border: 1px solid rgb(226, 224, 224);
+    height: 20vh;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    box-shadow: 0 4px 10px rgb(170, 168, 168);
+    border-radius: 20px;
+   
+}
+.numbersction h1{
+    color: hsl(44 70% 47%) ;
+  font-size: 40px;
+font-weight: 900;
+}
+.numbersction p{
+    color:rgb(151, 159, 206) ;
+    font-size: 20px;
+}

@@ -1,0 +1,36 @@
+.foursearch{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 30px;
+width: 100%;
+    background-color:white;
+    height: 80vh;
+}
+.searchbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   gap: 20px;
+}
+.searchbox button{
+    padding: 8px 25px;
+    color: hsl(44 70% 47%);
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+}
+.searchbox h1{
+    font-size: 55px;
+    color: rgb(9, 9, 128);
+}
+.searchbox p{
+    color: rgb(165, 164, 164);
+    font-size: 20px;
+}
+.searchbox select{
+width: 70%;
+padding: 15px;
+border-radius: 10px;
+outline: none;
+}

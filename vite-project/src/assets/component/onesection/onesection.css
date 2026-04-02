@@ -1,0 +1,143 @@
+body{
+    font: 1em sans-serif;
+    background-color: rgb(219, 218, 218);
+}
+.box{
+   
+    height: 400px;
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px;
+    border-radius: 20px;
+ background-color: white;
+}
+.onesections{
+    height: 60vh;
+}
+
+.boxbtn  {
+    display: flex;
+    gap: 20px;
+}
+.paragraf p{
+    font-size: 10px;
+}
+.boxbtn button  {
+    display: flex;
+    cursor: pointer;
+    padding: 5px 20px;
+    border-radius: 10px;
+    gap: 20px;
+    color: hsl(44 70% 47%);
+    border: none;
+}
+.boxtext{
+    width: 90%;
+    color: rgb(2, 2, 88);
+}
+.common button{
+    padding: 10px 15px;
+      color: hsl(44 70% 47%);
+}
+.boxtext h2{
+    width: 90%;
+    font-size: 20px;
+    color: rgb(2, 71, 88);
+}
+.paragraf p{
+    color: rgb(151, 159, 206);
+}
+.boxicosn{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+ 
+}
+.icon{
+    color: hsl(44 70% 47%);
+}
+
+.boxbottombtn button:nth-child(1){
+width: 48%;
+padding: 16px;
+border-radius: 15px;
+border: none;
+color: white;
+cursor: pointer;
+font-size: 18px;
+background-color:  rgb(2, 2, 88);
+
+}
+.boxbottombtn button:nth-child(1):hover{
+background-color: hsl(44 70% 47%);
+
+}
+.boxbottombtn button:nth-child(2){
+font-size: 18px;
+padding: 7px 15px;
+cursor: pointer;
+border-radius: 15px;
+border: 1px solid hsl(44 70% 47%);
+color: hsl(44 70% 47%);
+background-color: transparent;
+
+}
+.boxbottombtn button:nth-child(2):hover{
+background-color: hsl(44 70% 47%);
+color: white;
+}
+.boxbottombtn {
+display: flex;
+gap: 20px;
+}
+
+
+
+.onesections{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+ 
+
+}
+
+.oneicon{
+    
+  display: flex;
+  font-size: 19px;
+  align-items: center;
+  gap:8px;
+}
+.onesection button{
+    color:  hsl(44 70% 47%);
+    padding: 7px 20px;
+    border-radius: 10px;
+    border: none;
+   
+}
+.onesection h2{
+    font-size: 21px;
+}
+.onesection{
+    display: flex;
+    flex-direction: column;
+   gap: 40px;
+    align-items: flex-start
+
+   
+}
+.bodytext{
+    display: flex;
+    flex-direction: column;
+   align-items: flex-start;
+   padding: 20px;
+   gap: 10px;
+
+    color: rgb(2, 71, 88);
+}
+.bodytext h2{
+    font-size: 25px;
+}

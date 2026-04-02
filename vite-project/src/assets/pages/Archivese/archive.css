@@ -1,0 +1,164 @@
+.archivebox{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+width: 100%;
+margin-top: 40px;
+gap: 30px;
+
+
+
+}
+.archivetext {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+  
+   
+}
+.archivetext h1{
+    font-size: 40px;
+    color: navy;
+}
+.archivetext p{
+    color: #95b6f7;
+    font-size: 18px;
+}
+.archivecontainer{
+    background-color: rgb(245, 242, 242);
+    width: 100%;
+   min-height: 100vh;
+   
+}
+.archiveboxtop{
+    display: flex;
+     justify-content: space-evenly;
+     width: 100%;
+}
+
+.arciveleft{
+    background-color: white;
+     width: 17%;
+     border: 1px solid #e5e7eb;
+     border-radius: 15px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     align-items: center;
+    height: 45vh;
+     position: sticky;
+    top: 20px;
+}
+.archiveselect{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.archiveselect select {
+ padding: 10px;
+ width: 200px;
+ background-color: rgb(212, 218, 250);
+    border-radius: 10px;
+    border:none;
+    outline: none;
+}
+.archivesearch input{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+    background-color: rgb(212, 218, 250);
+
+}
+.arciveleft h4{
+
+width: 200px;
+
+}
+
+.archiveright{
+    display: flex;
+  
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 70%;
+
+}
+.archiverightbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 32%;
+    border:  1px solid #e5e7eb;;
+    border-radius: 10px;
+    height: 330px;
+    background-color: white;
+}
+.archiveicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 310px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #e5e7eb;
+}
+
+.archiveboxtext{
+   
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.archiveboxtext h3{
+    color: navy;
+}
+.archiveboxtext p{
+    color: hsl(216, 4%, 76%) ;
+}
+.archivebtn{
+   
+    width: 310px;
+    display: flex;
+    justify-content: space-between;
+}
+.archivebtn button{
+    width: 130px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.archivebtn button:nth-child(1){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    cursor: pointer;
+    background-color: hsl(215 100% 19%);
+    color: white;
+}
+.archivebtn button:nth-child(1):hover{
+   background-color:  hsl(44deg 70% 47% / 98%);
+}
+.archivebtn button:nth-child(2){
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    cursor: pointer;
+    background-color:transparent;
+    color: hsl(215 100% 19%);
+    border:  1px solid hsl(215, 67%, 83%);
+}
+.archivebtn button:nth-child(2):hover{
+  background-color:hsl(218, 35%, 94%) ;
+    
+}
+.srchiveicon{
+    font-size: 40px;
+    color: hsl(44deg 70% 47% / 98%);
+}

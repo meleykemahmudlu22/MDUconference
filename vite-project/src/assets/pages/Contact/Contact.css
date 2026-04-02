@@ -1,0 +1,184 @@
+.contactcontainer{
+    width: 100%;
+    
+}
+.contactconatiners{
+    background-color: white;
+}
+.conatinerscontact{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px
+}
+.conatinerscontact p{
+     color: rgb(59 130 246 / 50%);
+     font-size: 20px;
+}
+.conatinerscontact h3{
+    font-size: 40px;
+    color: navy;
+}
+.contacttexttop{
+  
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  width: 94%;
+
+}
+.contactright{
+    display: flex;
+    justify-content: space-around;
+  
+}
+.contactright form{
+    background-color: white;
+    width: 50%;
+     border:  1px solid hsl(215, 67%, 83%);
+
+    border-radius: 10px;
+    height: 769px;
+}
+form h2{
+
+    width: 85%;
+    color: navy;
+}
+.contactlabeltop{
+
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.contactlabel{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.contactlabel input{
+    width: 300px;
+    padding: 13px;
+    border-radius: 10px;
+    border: none;
+    background-color: #e5e7eb;
+   outline: none;
+}
+.contactbpttom{
+ 
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    
+}
+.labeltop{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.contactbpttom input{
+   background-color: #e5e7eb;
+    width: 750px;
+    padding: 15px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+.area textarea{
+   background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    width: 780px;
+    border: none;
+    height: 160px;
+    border-radius: 10px;
+    outline: none;
+}
+.area{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.contactarea textarea::placeholder{
+    padding: 6px;
+    font-size: 17px;
+}
+
+.concatbtn button{
+    width: 770px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: navy;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    font-size: 20px;
+}
+.concatbtn button:hover{
+    background-color:  hsla(47, 94%, 40%, 0.98);
+}
+
+.contactinfo{
+    background-color: white;
+    width: 90%;
+    border-radius: 15px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+     padding: 20px;
+    border:  1px solid hsl(215, 67%, 83%);
+}
+.contactinfo h2{
+    color: navy;
+}
+.info{
+    background-color: white;
+    display: flex;
+    align-items: center;
+   padding: 10px;
+    gap: 10px;
+     width: 600px;
+}
+.infoicons{
+   background-color: hsla(304, 37%, 93%, 0.98);
+   padding: 14px;
+   font-size: 20px; 
+   border-radius: 10px;
+   color:  hsl(44deg 70% 47% / 98%);
+}
+.infotext{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.infotext h2{
+    color: navy;
+}
+.infotext p{
+    color: rgb(59 130 246 / 50%);
+}
+.iframecontainer{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 40%;
+}
+.iframe{
+
+    height: 30vh;
+    border-radius: 10px;
+}
+.iframe iframe{
+    border-radius: 10px;
+}
