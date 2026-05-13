@@ -95,7 +95,7 @@ export const Treesection = () => {
                    
                 </div>
                </div>
-          <div className="gg">
+          <div className="treones">
                   <div className="lastbox">
                     <div className="textlogo">
                         < IoDocumentTextOutline />

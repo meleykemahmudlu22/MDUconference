@@ -162,7 +162,7 @@ export const Fivesection = () => {
 
 
                         <div className="leftbox">
-                         <Link to="/search">
+                           <Link to="/search">
                              <button>Bax</button>
                             </Link>
                         </div>
