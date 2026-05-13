@@ -2,6 +2,8 @@ import React from 'react'
 import { IoIosMoon } from "react-icons/io";
 import "./header.css"
 import { Link } from 'react-router-dom';
+import { IoMdMenu } from "react-icons/io";
+import image from '../../../image/ChatGPT Image May 13, 2026, 01_27_07 PM.png'
 
 export default function Header() {
   return (
@@ -10,12 +12,9 @@ export default function Header() {
       <div className="Header">
         <div className="headerlogi">
           <div className="logo">
-            <img src="https://mdu-konfrans-hub.lovable.app/assets/mdu-logo-KEc-IMqB.png" alt="MDU Logo" />
+            <img  src={image} alt="MDU Logo" />
           </div>
-          <div className="logotext">
-            <h2>MDU Konfrans Mərkəzi</h2>
-            <p>Elm və Təhsil üçün Platforma</p>
-          </div>
+         
         </div>
 
         <div className="headernav">
@@ -48,11 +47,15 @@ export default function Header() {
             
             </ul>
           </nav>
-        </div>
-
-        <div className="headericon">
+          <div className="headericon">
           <IoIosMoon />
         </div>
+        <div className="menu">
+        <IoMdMenu />
+                    </div>
+        </div>
+
+        
       </div>
       <div className="headersearch">
         <div className="searctext">
@@ -72,7 +75,7 @@ export default function Header() {
           </div>
          
          <div className="icon">
-          
+         
          </div>
        
 
