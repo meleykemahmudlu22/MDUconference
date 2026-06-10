@@ -222,7 +222,7 @@ font-size: 15px;
   align-items: center;
   height: 70vh;
   color: white;
-  /* background-color: brown; */
+ 
  
 }
 .searctext h1{
@@ -397,4 +397,66 @@ right: 5%;
     width:60% ;
   
 }
+}
+@media(max-width:576px){
+  .searctext h1{
+  font-size: 12px;
+}
+.searctext h3{
+  font-size: 15px;
+  text-align: center;
+}
+.search{
+    width:60% ;
+  
+}
+.btn {
+  position: absolute;
+  margin: 0 auto;
+/* right: 30%;
+  top: 50%; */
+
+  transform: translateY(-50%);
+}
+.input input::placeholder{
+  font-size: 15px;
+}
+.btn button{
+    cursor: pointer;
+    padding: 10px 50px;
+    border-radius: 10px;
+    background-color: hsl(44 70% 47%);
+    border: none;
+}
+.input input{
+  display:none;
+    
+}
+.headernav{
+  cursor: pointer;
+  width: 20%;
+  gap: 30px;
+ align-items: center;
+  display: flex;
+  background-color: brown;
+  color: rgb(230, 229, 229)
+}
+.search{
+    width:60% ;
+ 
+}
+.headersearch{
+  display: flex;
+  width: 100%;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+  height: 70vh;
+  color: white;
+ 
+  background-color: brown;
+}
+
 }

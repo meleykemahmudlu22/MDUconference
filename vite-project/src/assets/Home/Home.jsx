@@ -10,12 +10,12 @@ export const Home = () => {
   return (
     <div>
         <Header/>
-              {/* <Onesection />
-              <Twosection />
-              <Treesection />
-              <Foursection />
-              <Fivesection />
-              <Footer /> */}
-    </div>
+              <Onesection />
+              // <Twosection />
+              // <Treesection />
+              // <Foursection />
+              / <Fivesection />
+              // <Footer />
+    </ div>
   )
 }

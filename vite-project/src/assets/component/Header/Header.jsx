@@ -35,11 +35,12 @@ export default function Header() {
               <li>Təqvim</li>
              </Link>
              
-              <Link to="/register">
-              <li>Qeydiyyat</li>
+              <Link to="">
+              <li>Daxil ol</li>
               </Link>
-              <Link to="/about">
-              <li>Haqqımızda</li>
+              <Link to="/register">
+               <li>Qeydiyyat</li>
+             
               </Link>
               <Link to='/contact'>
                 <li>Əlaqə</li>
