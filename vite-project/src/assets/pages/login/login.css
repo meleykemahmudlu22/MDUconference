@@ -1,87 +1,58 @@
 
-.formdata{
-  display: flex;
- flex-direction: column;
- gap: 50px;
-}
-.registercontainers {
+
+.login-container {
   font-family: Arial, sans-serif;
-  background: #f9f9f9;
+  background: #f4f6f9;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-}
-
-.registertops {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  padding: 40px 20px;
+  justify-content: center;
 }
 
-.registertopstext {
- 
-  width: 37%;
-display: flex;
-flex-direction: column;
-gap: 10px;
-  margin-bottom: 30px;
-}
-
-.registertopstext h1 {
-  font-size: 32px;
+.login-container h1 {
+  margin-bottom: 20px;
   color: #333;
 }
 
-.registertopstext p {
-  font-size: 16px;
-  color: #666;
-}
-
-.formdata {
+.login-form {
   background: #fff;
   padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   width: 100%;
-  max-width: 600px;
+  max-width: 400px;
 }
 
-.label {
+.form-group {
   display: flex;
-
   flex-direction: column;
   margin-bottom: 15px;
 }
 
-.label label {
+.form-group label {
   font-weight: bold;
   margin-bottom: 5px;
   color: #444;
 }
 
-.label input {
+.form-group input {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 6px;
   font-size: 14px;
-  width: 250px;
   transition: border-color 0.3s;
 }
 
-.label input:focus {
+.form-group input:focus {
   border-color: #007bff;
   outline: none;
 }
 
-.topinput, .twoinp {
-  display: flex;
-  gap: 50px;
-}
-
 button {
-  margin-top: 20px;
   width: 100%;
   padding: 12px;
   background: #007bff;

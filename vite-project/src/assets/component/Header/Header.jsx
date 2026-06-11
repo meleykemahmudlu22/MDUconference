@@ -35,7 +35,7 @@ export default function Header() {
               <li>Təqvim</li>
              </Link>
              
-              <Link to="">
+              <Link to="/login">
               <li>Daxil ol</li>
               </Link>
               <Link to="/register">
