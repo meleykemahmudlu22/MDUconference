@@ -48,12 +48,12 @@ export default function Header() {
             
             </ul>
           </nav>
-          <div className="headericon">
+          {/* <div className="headericon">
           <IoIosMoon />
         </div>
         <div className="menu">
         <IoMdMenu />
-                    </div>
+                    </div> */}
         </div>
 
         

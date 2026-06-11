@@ -10,6 +10,9 @@ import { Contact } from './assets/pages/Contact/Contact'
 import Calendar from './assets/pages/Calendar/Calendar'
 import { Search } from './assets/pages/searchPge/Search'
 import { Login } from './assets/pages/login/Login'
+import Detail from './assets/pages/deatil/Detail'
+
+
 
 
 export default function App() {
@@ -24,6 +27,7 @@ export default function App() {
   <Route path='/contact' element={<Contact/>}/>
   <Route path='/calendar' element={<Calendar/>}/>
   <Route path='/login' element={<Login/>}/>
+  <Route path='/detail/:id' element={<Detail/>}/>
 </Routes>
       
     </div>

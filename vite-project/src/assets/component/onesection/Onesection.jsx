@@ -1,11 +1,29 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 import { CiCalendar } from "react-icons/ci";
 import { IoLocationOutline } from "react-icons/io5";
 import "./onesection.css"
 import { Link } from 'react-router-dom';
+import axios from 'axios';
 
 export default function Onesection() {
+const[datas,setDatas]=useState([])
+
+  useEffect(()=>{
+ async function getdata () {
+  try {
+    
+  const {data}=  await axios.get("https://6a1ad52fbc2f94475492b2ec.mockapi.io/conference")
+  setDatas(data)
+
+  } catch (error) {
+    console.log(error);
+    
+  }
+    
+  }
+  getdata()
+  },[])
   return (
     <div className='onesection'>
     <div className="bodytext">
@@ -15,117 +33,41 @@ export default function Onesection() {
         
       <div className="onesections">
      
-        <div className="box">
-          <div className="boxbtn">
+       {
+        datas.map((item)=>(
+           <div className="box"key={item.id}>
+          <div className="boxbtns">
             <button>GƏLƏCƏK</button>
             <button>RESPUBLİKA</button>
           </div>
           <div className="boxtext">
-            <h2>Ekoloji təhlükəsizlik və ətraf mühitin qorunması</h2>
+            <h2>{item.name}</h2>
           </div>
           <div className="paragraf">
-            <p>Ətraf mühitin qorunması, ekoloji təhlükəsizlik və davamlı inkişaf</p>
+            <p>{item.title}</p>
           </div>
           <div className="boxicosn">
             <div className="oneicon">
-              <CiCalendar className="icon" /> <p>22–23 Sentyabr 2025</p>
+              <CiCalendar className="icon" /> <p>{item.date}</p>
             </div>
             <div className="oneicon">
-              <IoLocationOutline className='icon' /> <p>Mingəçevir Dövlət Universiteti</p>
+              <IoLocationOutline className='icon' /> <p>{item.location}</p>
             </div>
 
           </div>
-          <div className="boxbottombtn">
-            <Link to="/search"> 
+          <div className="boxbottombtns">
+            <Link to={`/detail/${item.id}`}> 
             <button>Ətraflı Bax </button>
             </Link>
-            <Link to="/register">
+            {/* <Link to="/register">
               <button>Qeydiyyat</button>
-            </Link>
+            </Link> */}
           
           </div>
         </div>
-        <div className="box">
-          <div className="boxbtn">
-            <button>GƏLƏCƏK</button>
-            <button>RESPUBLİKA</button>
-          </div>
-          <div className="boxtext">
-            <h2>Ekoloji təhlükəsizlik və ətraf mühitin qorunması</h2>
-          </div>
-          <div className="paragraf">
-            <p>Ətraf mühitin qorunması, ekoloji təhlükəsizlik və davamlı inkişaf</p>
-          </div>
-          <div className="boxicosn">
-            <div className="oneicon">
-              <CiCalendar className="icon" /> <p>22–23 Sentyabr 2025</p>
-            </div>
-            <div className="oneicon">
-              <IoLocationOutline className='icon' /> <p>Mingəçevir Dövlət Universiteti</p>
-            </div>
-
-          </div>
-          <div className="boxbottombtn">
-             <Link to="/search"> 
-            <button>Ətraflı Bax </button>
-            </Link>
-            <button>Qeydiyyat</button>
-          </div>
-        </div>
-        <div className="box">
-          <div className="boxbtn">
-            <button>GƏLƏCƏK</button>
-            <button>RESPUBLİKA</button>
-          </div>
-          <div className="boxtext">
-            <h2>Ekoloji təhlükəsizlik və ətraf mühitin qorunması</h2>
-          </div>
-          <div className="paragraf">
-            <p>Ətraf mühitin qorunması, ekoloji təhlükəsizlik və davamlı inkişaf</p>
-          </div>
-          <div className="boxicosn">
-            <div className="oneicon">
-              <CiCalendar className="icon" /> <p>22–23 Sentyabr 2025</p>
-            </div>
-            <div className="oneicon">
-              <IoLocationOutline className='icon' /> <p>Mingəçevir Dövlət Universiteti</p>
-            </div>
-
-          </div>
-          <div className="boxbottombtn">
-             <Link to="/search"> 
-            <button>Ətraflı Bax </button>
-            </Link>
-            <button>Qeydiyyat</button>
-          </div>
-        </div>
-        <div className="box">
-          <div className="boxbtn">
-            <button>GƏLƏCƏK</button>
-            <button>RESPUBLİKA</button>
-          </div>
-          <div className="boxtext">
-            <h2>Ekoloji təhlükəsizlik və ətraf mühitin qorunması</h2>
-          </div>
-          <div className="paragraf">
-            <p>Ətraf mühitin qorunması, ekoloji təhlükəsizlik və davamlı inkişaf</p>
-          </div>
-          <div className="boxicosn">
-            <div className="oneicon">
-              <CiCalendar className="icon" /> <p>22–23 Sentyabr 2025</p>
-            </div>
-            <div className="oneicon">
-              <IoLocationOutline className='icon' /> <p>Mingəçevir Dövlət Universiteti</p>
-            </div>
-
-          </div>
-          <div className="boxbottombtn">
-             <Link to="/search"> 
-            <button>Ətraflı Bax </button>
-            </Link>
-            <button>Qeydiyyat</button>
-          </div>
-        </div>
+        ))
+       }
+      
       </div>
 
     </div>

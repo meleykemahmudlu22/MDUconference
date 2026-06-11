@@ -18,21 +18,23 @@ body{
     height: 60vh;
 }
 
-.boxbtn  {
+.boxbtns  {
     display: flex;
     gap: 20px;
 }
 .paragraf p{
     font-size: 10px;
 }
-.boxbtn button  {
+.boxbtns button  {
     display: flex;
-    cursor: pointer;
+   
     padding: 5px 20px;
     border-radius: 10px;
     gap: 20px;
-    color: hsl(44 70% 47%);
+    font-size: 15px;
+    color:  hsl(44 70% 47%);
     border: none;
+    background-color:navy;
 }
 .boxtext{
     width: 90%;
@@ -60,8 +62,14 @@ body{
     color: hsl(44 70% 47%);
 }
 
-.boxbottombtn button:nth-child(1){
-width: 48%;
+.boxbottombtns button{
+    width: 98%;
+    background-color: navy;
+  
+}
+
+/* .boxbottombtn button:nth-child(1){
+width: 68%;
 padding: 16px;
 border-radius: 15px;
 border: none;
@@ -70,7 +78,7 @@ cursor: pointer;
 font-size: 18px;
 background-color:  rgb(2, 2, 88);
 
-}
+} */
 .boxbottombtn button:nth-child(1):hover{
 background-color: hsl(44 70% 47%);
 
